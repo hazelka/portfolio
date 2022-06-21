@@ -1,0 +1,5 @@
+.square {
+  background-color: var(--blue);
+  display: inline-block;
+  margin: 0 0.5rem;
+}

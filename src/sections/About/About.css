@@ -1,0 +1,58 @@
+#about-container {
+  position: relative;
+  margin-top: 100px;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.intro {
+  padding: 2rem;
+}
+
+.hello {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.about-ref-btn {
+  margin-top: 3rem;
+}
+
+.desc {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+#about p {
+  width: 300px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  #about-container {
+    height: auto;
+  }
+
+  #about {
+    flex-direction: column;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #about {
+    margin: 1rem auto;
+  }
+}

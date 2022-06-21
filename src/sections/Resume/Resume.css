@@ -1,0 +1,45 @@
+#resume-container {
+  position: relative;
+  width: 100vw;
+}
+
+#resume {
+  padding: 100px;
+}
+
+#resume-container::after {
+  content: "";
+  border-left: 100vw solid var(--dark);
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+}
+
+#resume h2 {
+  margin: 50px 50px 0 0;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.resume-section {
+  background-color: white;
+  box-shadow: 
+    0.5rem 0.5rem 0 var(--dark),
+    1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  border-right: 1px solid var(--dark2);
+  border-bottom: 1px solid var(--dark2);
+  margin: 3rem 0;
+}
+
+.resume-section-detail {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #resume {
+    padding: 100px 1rem;
+  }
+}

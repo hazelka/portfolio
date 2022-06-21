@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.footer ul {
+  margin: 0;
+}
+
+.footer ul li{
+  list-style: none;
+  margin: 0 1rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-contact-type {
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+@media  screen and (max-width: 600px) {
+  .footer ul li{
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+}

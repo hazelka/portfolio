@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--blue);
+}
+
+.nav-name-icon {
+  background-color: var(--blue);
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.5rem;
+}
+
+.nav-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-seperator {
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+}
