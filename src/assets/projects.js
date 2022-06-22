@@ -44,7 +44,7 @@ export const projects = [
     stack: 'Node, Express, PostgreSQL, BootStrap, JavaScript, HTML, CSS',
     desc: 'Management site to receive real-time orders and inquiries confirmation, with the ability to update work progress to database',
     imgURL: p5Img,
-    liveURL: 'https://hazelka.github.io/takeout-management-api/'
+    liveURL: 'https://hazelka.github.io/takeout-api/'
 
   },
   {

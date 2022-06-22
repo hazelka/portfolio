@@ -33,7 +33,7 @@ const About = () => {
               </div>
               <p>
                 Building websites and applications that strikes a balance between 
-                funcionality and aesthetic design. 
+                funcionality and aesthetic design
               </p>
           </Fade>
         </div>
